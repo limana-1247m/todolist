@@ -1,0 +1,117 @@
+
+
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+padding: 30px;
+color: black;
+background-image: url(./img/fundo01.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.app{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffe1c5;
+    padding: 20px 30px;
+    border-radius: 12px;
+    margin-bottom: 300px;
+}
+
+h1 {
+    text-align: center
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+input{
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #ffe4b1;
+    color: rgb(5, 4, 5);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: .4s;
+    margin-right: 10px;
+}
+
+
+.todo-list{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d0ae50;  
+}  
+
+
+.todo{
+    background-color: #fff9dd;
+    box-shadow:  #f6e9ae, 0.1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.complete{
+    background-color: #9affa2;
+
+}
+
+.complete:hover{
+    background-color: #33cf67d7;
+}
+.remove{
+ background-color: #df6662;
+ opacity: 3;
+}
+ 
+.remove:hover{
+    background-color: #ca231e;
+}
+
+button:hover{
+    opacity: 2;
+    color: #fffcf5;
+    background-color: #ffbf47;
+}
+
+.todo-form{
+    padding-bottom: 1.5rem;
+}
+
+input, select{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.filter, .search{
+    border-bottom: 1px solid #d0ae50;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.filter-options{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem ;
+}
+
+.filter-options div {
+    flex: 1 1 0;
+}
